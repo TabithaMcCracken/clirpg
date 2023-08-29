@@ -23,7 +23,7 @@ pip install requests
 After ensuring you have the prerequisites installed, you can simply run the script:
 
 ```bash
-python rpg_game.py
+python clirpg.py
 ```
 
 ## How to Play
