@@ -20,6 +20,7 @@ pip install requests
 ```
 
 #### Running the game
+
 After ensuring you have the prerequisites installed, you can simply run the script:
 
 ```bash
@@ -27,6 +28,7 @@ python clirpg.py
 ```
 
 ## How to Play
+
 1. Start the game and enter your name.
 2. Your character's name in the game will be generated based on the length of the name you entered.
 3. You will be presented with two doors: left and right. Choose one.
@@ -34,6 +36,7 @@ python clirpg.py
 5. The decisions you make will determine the outcome of the game. Good luck!
 
 ## Game Design
+
 Player class: Represents the player with attributes like the player's name and whether they have a sword. It also contains methods for the player to pick up a sword and create a game name.
 
 Room class: Represents a room in the game with attributes like name, description, and what the player might encounter in that room.
@@ -41,7 +44,13 @@ Room class: Represents a room in the game with attributes like name, description
 Game class: This class drives the game. It contains methods for navigating the game, choosing rooms, going into rooms, and handling the dragon encounter.
 
 ## Future Improvements
+
 This is a basic CLI RPG game. In the future, there might be additions of more rooms, encounters, and a more intricate storyline.
 
 ## Acknowledgements
+
 The create_game_name method uses the Uzby API to generate names based on the length of the player's name.
+
+## Feedback and Contribution
+
+For any feedback or contributions to this script, please open a pull request or raise an issue in this repository.
